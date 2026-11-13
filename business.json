@@ -1,0 +1,22 @@
+{
+  "name": "Commercial Scaffolding Ltd",
+  "description": "We deliver an excellent service in specialised commercial scaffolding using a wealth of industry experience and knowledge.",
+  "address": "Commercial Scaffolding Ltd, Leads Rd, HU7 0DF",
+  "email": "info@commscaf.co.uk",
+  "emailHref": "mailto:info@commscaf.co.uk",
+  "phone": "+44 1482 782181",
+  "phoneHref": "tel:+441482782181",
+  "whatsappHref": "https://wa.me/441482782181",
+  "whatsappRegistrationVerified": false,
+  "logo": "images/logo/logo.png",
+  "banner": "images/projects/Banner Image.jpg",
+  "projectImages": [
+    "images/projects/Service Pic 1.jpg",
+    "images/projects/Service Pic 2.jpg",
+    "images/projects/Service Pic 3.jpg",
+    "images/projects/Service Pic 4.jpg",
+    "images/projects/Service Pic 5.jpg",
+    "images/projects/Service Pic 6.jpg"
+  ],
+  "previewOnly": true
+}

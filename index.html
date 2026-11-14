@@ -25,5 +25,6 @@
 <script>
 const bar=document.getElementById('progress-bar');const revealEls=[...document.querySelectorAll('.reveal,.step')];const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;function update(){const h=document.documentElement;const p=h.scrollTop/(h.scrollHeight-h.clientHeight||1);bar.style.width=(p*100)+'%';if(reduce){revealEls.forEach(e=>e.classList.add('in'));return}const trigger=innerHeight*.88;revealEls.forEach(e=>{const r=e.getBoundingClientRect();if(r.top<trigger)e.classList.add('in')})}addEventListener('scroll',update,{passive:true});addEventListener('resize',update);update();const b=document.querySelector('.menu'),n=document.getElementById('navigation');b.addEventListener('click',()=>{const o=n.classList.toggle('open');b.setAttribute('aria-expanded',o)});n.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{n.classList.remove('open');b.setAttribute('aria-expanded','false')}));
 </script>
+<script src="scaffold-motion.js" defer></script>
 </body>
 </html>
